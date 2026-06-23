@@ -46,9 +46,6 @@ itsm-ticket-analysis/
 - Columnas: 28+
 - Campos clave: estado, prioridad, fechas, SLA, agente, país, coordenadas.
 
-> Nota: el dataset puede no estar incluido por licencia.  
-> Se documenta la estructura y origen.
-
 ----
 
 ## 4. Documentación técnica
@@ -65,7 +62,10 @@ El dashboard incluye:
 - Distribución por país.  
 - Distribución por prioridad.  
 - Evolución mensual.  
-- Filtros interactivos.  
+- Filtros interactivos.
+
+El archivo de Power BI está disponible en:
+- `powerbi/ITSM Ticket Analysis – Caso 3 .pbix`. 
 
 Capturas disponibles en `/assets`.
 
