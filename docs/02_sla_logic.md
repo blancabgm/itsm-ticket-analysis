@@ -18,12 +18,14 @@ Se creó la columna calculada:
 
 ```text
 Resolution_Duration_Hours = Duration.Hours([Resolution time] - [Created time])
+```
 
 ---
 
 ### 1.2 Lógica de calidación SLA
 
 Se creo la columna de control:
+```text
 Check_SLA_Resolution =
 if [SLA For Resolution] = "Within SLA"
    and (
@@ -32,7 +34,7 @@ if [SLA For Resolution] = "Within SLA"
    )
 then "ERROR"
 else "OK"
-
+```
 ---
 
 ### 1.3 Resultados de la validación
@@ -58,7 +60,7 @@ En este caso, el SLA teórico es de 2 horas.
 Se creó la columna calculada:
 ```text
 FirstResponse_Duration_Hours = Duration.Hours([First response time] - [Created time])
-
+```
 ---
 
 ### 2.2 Lógica de validación del SLA
@@ -72,7 +74,7 @@ if [SLA For first response] = "Within SLA"
    )
 then "ERROR"
 else "OK"
-
+```
 ---
 
 ### 2.3 Resultados de la validación
