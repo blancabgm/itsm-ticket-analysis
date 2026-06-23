@@ -1,2 +1,55 @@
-# itsm-ticket-analysis
-Análisis de rendimiento ITSM 2023 – Data + Procesos + Calidad (Caso 3)
+# ITSM Ticket Analysis – Caso 3 (ITSM 2023) 📊
+
+Análisis del rendimiento de un sistema ITSM durante 2023, con foco en:
+- volumen de tickets,
+- tiempos de primera respuesta y resolución,
+- cumplimiento de SLA,
+- distribución por país y prioridad.
+
+Este proyecto combina **Data + Procesos + Calidad**, con especial énfasis en:
+- evaluación de la calidad del dato (Data Quality),
+- validación de reglas de proceso y SLA,
+- diseño de un dashboard profesional en Power BI.
+
+## 1. Objetivos
+
+- Evaluar el rendimiento del proceso de gestión de tickets ITSM.
+- Analizar la distribución de la carga operativa por país y prioridad.
+- Medir tiempos de primera respuesta y resolución.
+- Validar el cumplimiento de SLA y su coherencia con los datos.
+- Proponer recomendaciones de mejora basadas en KPIs.
+
+## 2. Estructura del repositorio
+
+- `data/` → dataset o enlace a la fuente.
+- `docs/` → documentación técnica (Data Quality, SLA, KPIs, dashboard).
+- `powerbi/` → archivo `.pbix` del dashboard.
+- `assets/` → capturas del dashboard y gráficos clave.
+- `notebooks/` (opcional) → análisis exploratorio adicional.
+
+## 3. Dataset
+
+- Origen: dataset de soporte técnico (ITSM).
+- Registros: 2.331.
+- Campos clave: estado, prioridad, fechas, SLA, agente, país, coordenadas.
+
+> Nota: por licencia y tamaño, el dataset puede no estar incluido directamente en el repositorio. En ese caso, se documenta la fuente y el esquema.
+
+## 4. Documentación técnica
+
+- `docs/01_data_quality.md` → reglas aplicadas, problemas detectados, correcciones.
+- `docs/02_sla_logic.md` → lógica de SLA de resolución y primera respuesta.
+- `docs/03_kpis_dashboard.md` → definición de KPIs y diseño del dashboard.
+
+## 5. Herramientas
+
+- Power BI (modelado, DAX, visualizaciones).
+- Excel / Power Query (preparación de datos).
+- GitHub + Notion (documentación y portfolio).
+
+## 6. Estado del proyecto
+
+- ✅ Data Quality documentado.
+- ✅ Lógica de SLA documentada.
+- ✅ Dashboard en Power BI construido.
+- 🔄 Pendiente de publicación de archivos y enlaces finales.
