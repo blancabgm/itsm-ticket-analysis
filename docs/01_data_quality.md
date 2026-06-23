@@ -145,7 +145,9 @@ Corrección aplicada:
 ```text
 Latitude_fixed  = if Latitude  > 90  then Latitude  / 10 else Latitude
 Longitude_fixed = if Longitude > 180 then Longitude / 10 else Longitude
-´´´
+```
+----
+
 Resultado:
 
 100% de coordenadas dentro de rangos válidos.
@@ -167,3 +169,4 @@ Tras aplicar todas las reglas y correcciones:
 - Las columnas originales de coordenadas se ocultaron para evitar confusión.
 - Las columnas calculadas se utilizaron en Power BI para KPIs y validaciones.
 - Los registros con incoherencias se marcaron para análisis posterior.
+
