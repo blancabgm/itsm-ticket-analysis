@@ -64,10 +64,17 @@ El dashboard incluye:
 - Evolución mensual.  
 - Filtros interactivos.
 
+### Power BI
+
 El archivo de Power BI está disponible en:
 - `powerbi/ITSM Ticket Analysis – Caso 3 .pbix`. 
 
-Capturas disponibles en `/assets`.
+### Capturas del dashboard
+
+- Vista general: `assets/dashboard_overview.png`  
+- KPIs principales: `assets/dashboard_kpis.png`  
+- Tickets por país: `assets/tickets_by_country.png`  
+- Tickets por prioridad: `assets/tickets_by_priority.png`
 
 ---
 
