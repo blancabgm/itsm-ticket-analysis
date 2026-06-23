@@ -110,4 +110,60 @@ Si SLA For Resolution = "Within SLA" → duración ≤ 24 h.
 ---
 
 #### Regla 6 — SLA de primera respuesta coherente
-Si SLA For first response = "Within SLA" →
+Si SLA For first response = "Within SLA" → duración 2 h.
+- OK: todos  
+- ERROR: 0  
+
+**Conclusión:** SLA de primera respuesta completamente coherente.
+
+---
+
+### 2.5 Asignación de agente
+
+#### Regla 10 — Agente o grupo asignado
+Si Status ≠ Open → debe existir Agent Name o Agent Group.
+
+- Tickets no Open: 2.312  
+- Sin agente: 0  
+
+**Conclusión:** No existen tickets sin responsable.
+
+---
+
+### 2.6 Coherencia geográfica
+
+#### Regla 11 — País vs coordenadas
+Las coordenadas deben estar dentro de rangos válidos.
+
+Hallazgo:
+
+- Parte del dataset tiene coordenadas correctas.
+- Otra parte tiene valores escalados ×10.
+
+Corrección aplicada:
+
+```text
+Latitude_fixed  = if Latitude  > 90  then Latitude  / 10 else Latitude
+Longitude_fixed = if Longitude > 180 then Longitude / 10 else Longitude
+´´´
+Resultado:
+
+100% de coordenadas dentro de rangos válidos.
+
+---
+
+## 3. Estado final del dataset
+Tras aplicar todas las reglas y correcciones:
+
+- Campos esenciales completos.
+- Incoherencias temporales identificadas y documentadas.
+- SLA validado con un único caso inconsistente.
+- Coordenadas normalizadas.
+- Dataset con nivel de calidad alto, apto para análisis y visualización.
+
+---
+
+## 4. Notas adicionales
+- Las columnas originales de coordenadas se ocultaron para evitar confusión.
+- Las columnas calculadas se utilizaron en Power BI para KPIs y validaciones.
+- Los registros con incoherencias se marcaron para análisis posterior.
