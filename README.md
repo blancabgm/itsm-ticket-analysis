@@ -20,7 +20,7 @@ itsm-ticket-analysis-caso3/
 ├─ README.md
 ├─ data/
 ├─ powerbi/
-│  └─ ITSM_Ticket_Analysis_Caso3.pbix
+│  └─ ITSMTicketAnalysis.pbix
 ├─ docs/
 │  ├─ 01_data_quality.md
 │  ├─ 02_sla_logic.md
