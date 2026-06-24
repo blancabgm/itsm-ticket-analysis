@@ -68,10 +68,10 @@ El dashboard incluye:
 
 ### Capturas del dashboard
 
-- Vista general: `assets/dashboard_overview.png`  
-- KPIs principales: `assets/dashboard_kpis.png`  
-- Tickets por país: `assets/tickets_by_country.png`  
-- Tickets por prioridad: `assets/tickets_by_priority.png`
+#### Vista general: ![Dashboard completo](assets/dashboard_full.png)
+#### KPIs principales: ![KPIs](assets/dashboard_kpis.png)
+#### Tickets por país: ![Mapa Europa](assets/dashboard_map.png)
+#### Tickets por prioridad: ![Visualizaciones](assets/dashboard_visuals.png)
 
 ---
 
