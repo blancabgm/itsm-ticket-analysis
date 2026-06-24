@@ -77,7 +77,7 @@ El dashboard incluye:
 
 ---
 
-##6. Herramientas utilizadas
+## 6. Herramientas utilizadas
 
 - Power BI (modelo DAX, visualizaciones)
 - Power Quaery (limpieza y preparación)
