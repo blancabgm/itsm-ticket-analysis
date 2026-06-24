@@ -46,21 +46,20 @@ itsm-ticket-analysis-caso3/
 
 ## 4. Documentación técnica
 
-- `docs/01_data_quality.md` → Reglas aplicadas, problemas detectados, correcciones.  
-- `docs/02_sla_logic.md` → Lógica de SLA de resolución y primera respuesta.  
-- `docs/03_dashboard_kpis.md` → KPIs, medidas DAX y estructura del dashboard.
+- [Data](docs/01_data_quality.md) → Reglas aplicadas, problemas detectados, correcciones.  
+- [SLA](docs/02_sla_logic.md) → Lógica de SLA de resolución y primera respuesta.  
+- [KPIs](docs/03_dashboard_kpis.md) → KPIs, medidas DAX y estructura del dashboard.
 
 ---
 
 ## 5. Herramientas
 
-El archivo de Power BI está disponible en:
-- `powerbi/ITSM Ticket Analysis – Caso 3 .pbix`. 
+[Ver el archivo Power BI](powerbi/ITSM Ticket Analysis – Caso 3 .pbix). 
 
 El dashboard incluye:
 
 - KPIs principales (volumen, tiempos, SLA).  
-- Distribución por país.  
+- Distribución por país. 
 - Distribución por prioridad.  
 - Evolución mensual.
 - Mapageográfico.
@@ -70,8 +69,9 @@ El dashboard incluye:
 
 #### Vista general: ![Dashboard completo](assets/dashboard_full.png)
 #### KPIs principales: ![KPIs](assets/dashboard_kpis.png)
-#### Tickets por país: ![Mapa Europa](assets/dashboard_map.png)
-#### Tickets por prioridad: ![Visualizaciones](assets/dashboard_visuals.png)
+#### Distribución por país (mapa): ![Mapa Europa](assets/dashboard_map.png)
+#### Gráficos principales: ![Visualizaciones](assets/dashboard_visuals.png)
+
 
 ---
 
@@ -96,4 +96,4 @@ El dashboard incluye:
 
 ## 8. Notion
 
-La versión ejecutiva del caso está disponible en [Notion.] (https://app.notion.com/p/ITSM-Ticket-Analysis-Caso-3-ITSM-2023-38861cbed097806a883ff47ab947eef9?source=copy_link)
+La versión ejecutiva del caso está disponible en [Notion.](https://app.notion.com/p/ITSM-Ticket-Analysis-Caso-3-ITSM-2023-38861cbed097806a883ff47ab947eef9?source=copy_link)
