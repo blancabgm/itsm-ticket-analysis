@@ -16,6 +16,7 @@ Este proyecto analiza el rendimiento de un sistema ITSM durante 2023, combinando
 
 ## 2. Estructura del repositorio
 itsm-ticket-analysis-caso3/
+```
 ├─ README.md
 ├─ data/
 ├─ powerbi/
@@ -25,6 +26,7 @@ itsm-ticket-analysis-caso3/
 │  ├─ 02_sla_logic.md
 │  └─ 03_dashboard_kpis.md
 └─ assets/
+```
 
 - **data/** → dataset o enlace a la fuente.  
 - **powerbi/** → archivo `.pbix` del dashboard.  
@@ -54,7 +56,7 @@ itsm-ticket-analysis-caso3/
 
 ## 5. Herramientas
 
-[Ver el archivo Power BI](powerbi/ITSM Ticket Analysis – Caso 3 .pbix). 
+[Ver el archivo Power BI](powerbi/ITSMTicketAnalysis.pbix). 
 
 El dashboard incluye:
 
@@ -83,17 +85,6 @@ El dashboard incluye:
 
 ---
 
-## 7. Estado del proyecto
-
-- ✔ Data Quality documentado  
-- ✔ Lógica de SLA documentada  
-- ✔ Dashboard construido  
-- ✔ PBIX subido  
-- 🔄 Pendiente de subir capturas del dashboard  
-- 🔄 Pendiente de revisión final del dashboard (alineación visual y filtros)
-
----
-
-## 8. Notion
+## 7. Notion
 
 La versión ejecutiva del caso está disponible en [Notion.](https://app.notion.com/p/ITSM-Ticket-Analysis-Caso-3-ITSM-2023-38861cbed097806a883ff47ab947eef9?source=copy_link)
