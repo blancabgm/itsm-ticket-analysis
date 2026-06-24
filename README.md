@@ -69,22 +69,25 @@ El dashboard incluye:
 
 ### Capturas del dashboard
 
-#### Vista general: ![Dashboard completo](assets/dashboard_full.png)
+#### [Potada] ![Cover](assets/dashboard_cover.png)
 #### KPIs principales: ![KPIs](assets/dashboard_kpis.png)
-#### Distribución por país (mapa): ![Mapa Europa](assets/dashboard_map.png)
 #### Gráficos principales: ![Visualizaciones](assets/dashboard_visuals.png)
-
+#### Distribución por país (mapa): ![Mapa Europa](assets/dashboard_map.png)
+#### Vista general: ![Dashboard completo](assets/dashboard_full.png)
 
 ---
 
 ## 6. Herramientas utilizadas
 
-- Power BI (modelo DAX, visualizaciones)
+- Power BI (modelo DAX, visualizacions)
 - Power Quaery (limpieza y preparación)
 - Github + Notion (documentación)
 
 ---
 
-## 7. Notion
+## 🔗 Enlaces
 
-La versión ejecutiva del caso está disponible en [Notion.](https://app.notion.com/p/ITSM-Ticket-Analysis-Caso-3-ITSM-2023-38861cbed097806a883ff47ab947eef9?source=copy_link)
+- [Repositorio en GitHub](https://github.com/blancabgm/itsm-ticket-analysis)
+- [Ver el archivo Power BI](powerbi/ITSMTicketAnalysis.pbix)
+- La versión ejecutiva del caso está disponible en [Notion.](https://app.notion.com/p/ITSM-Ticket-Analysis-Caso-3-ITSM-2023-38861cbed097806a883ff47ab947eef9?source=copy_link)
+
